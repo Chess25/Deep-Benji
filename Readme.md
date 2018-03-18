@@ -3,31 +3,31 @@
 [![Build Status](https://travis-ci.org/official-stockfish/Stockfish.svg?branch=master)](https://travis-ci.org/official-stockfish/Stockfish)
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/official-stockfish/Stockfish?svg=true)](https://ci.appveyor.com/project/mcostalba/stockfish)
 
-Stockfish is a free UCI chess engine derived from Glaurung 2.1. It is
+Deep Benji is a free UCI chess engine derived from Glaurung 2.1. It is
 not a complete chess program and requires some UCI-compatible GUI
 (e.g. XBoard with PolyGlot, eboard, Arena, Sigma Chess, Shredder, Chess
 Partner or Fritz) in order to be used comfortably. Read the
 documentation for your GUI of choice for information about how to use
 Stockfish with it.
 
-This version of Stockfish supports up to 512 cores. The engine defaults
+This version of Deep Benji supports up to 512 cores. The engine defaults
 to one search thread, so it is therefore recommended to inspect the value of
 the *Threads* UCI parameter, and to make sure it equals the number of CPU
 cores on your computer.
 
-This version of Stockfish has support for Syzygybases.
+This version of Deep Benji has support for Syzygybases.
 
 
 ### Files
 
-This distribution of Stockfish consists of the following files:
+This distribution of Deep Benji consists of the following files:
 
   * Readme.md, the file you are currently reading.
 
   * Copying.txt, a text file containing the GNU General Public License.
 
   * src, a subdirectory containing the full source code, including a Makefile
-    that can be used to compile Stockfish on Unix-like systems.
+    that can be used to compile Deep Benji on Unix-like systems.
 
 
 ### Syzygybases
@@ -84,10 +84,10 @@ the 50-move rule.
 
 ### Compiling it yourself
 
-On Unix-like systems, it should be possible to compile Stockfish
+On Unix-like systems, it should be possible to compile Deep Benji
 directly from the source code with the included Makefile.
 
-Stockfish has support for 32 or 64-bit CPUs, the hardware POPCNT
+Deep Benji has support for 32 or 64-bit CPUs, the hardware POPCNT
 instruction, big-endian machines such as Power PC, and other platforms.
 
 In general it is recommended to run `make help` to see a list of make
@@ -102,19 +102,19 @@ for a quick reference.
 (techniques used here are well explained like hash maps etc), it was 
 also recommended by the [support team at stockfish.](http://support.stockfishchess.org/discussions/questions/1132-how-to-understand-stockfish-sources)
 
-* [Here](https://chessprogramming.wikispaces.com/Stockfish) you can find a set of features and techniques used by stockfish and each of them is explained at the wiki, however, it's a generic way rather than focusing on stockfish's own implementation, but it will still help you. 
+* [Here](https://chessprogramming.wikispaces.com/Stockfish) you can find a set of features and techniques used by Deep Benji and each of them is explained at the wiki, however, it's a generic way rather than focusing on stockfish's own implementation, but it will still help you. 
 
 
 ### Terms of use
 
-Stockfish is free, and distributed under the **GNU General Public License**
+Deep Benji is free, and distributed under the **GNU General Public License**
 (GPL). Essentially, this means that you are free to do almost exactly
 what you want with the program, including distributing it among your
 friends, making it available for download from your web site, selling
 it (either by itself or as part of some bigger software package), or
 using it as the starting point for a software project of your own.
 
-The only real limitation is that whenever you distribute Stockfish in
+The only real limitation is that whenever you distribute Deep Benji in
 some way, you must always include the full source code, or a pointer
 to where the source code can be found. If you make any changes to the
 source code, these changes must also be made available under the GPL.
